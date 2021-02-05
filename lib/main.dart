@@ -11,9 +11,13 @@ void main() {
   runApp(MaterialApp(
     routes: {
       "/": (_) => SafeArea(
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 0),
               child: new WebviewScaffold(
-            url: selectedUrl,
-          )),
+                url: selectedUrl,
+              ),
+            ),
+          ),
     },
   ));
 }
