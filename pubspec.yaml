@@ -21,8 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 flutter_icons:
-  image_path_android: "assets/logo.png"
-  image_path_ios: "assets/logo.png"
+  image_path_android: "assets/logo.jpeg"
+  image_path_ios: "assets/logo.jpeg"
   android: true
   ios: "AppIcon"
 
